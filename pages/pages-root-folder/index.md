@@ -18,10 +18,10 @@ widget2:
   url: 'https://homeassistant.jongriffith.com/chateau-de-vie/'
   text: '<em>Home Assistant</em> is open source software that gives you a central hub to control and automate over 1000 different types of devices from switches, to openers, to outlets, notifications...the list is really endless and your limits are your imagination.'
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  title: "Daily Automations"
+  url: 'https://homeassistant.jongriffith.com/daily-automations/'
+  text: "<em>Daily automations</em> are the routines that we've put into place that control all of the Internet of Things (IOT) devices in our home."
+
 
 #
 # Use the call for action to show a button on the frontpage

@@ -7,14 +7,16 @@ subheadline: ""
 title: ""
 teaser: ""
 categories:
-  - 
+  -
 tags:
-  - 
+  -
+permalink: "//""
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
-Inhalt
+**Table of Contents**
+
 {: #toc }
 *  TOC
 {:toc}
@@ -29,4 +31,3 @@ Inhalt
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
-

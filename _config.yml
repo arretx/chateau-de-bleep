@@ -13,8 +13,8 @@ title: 'Chateau de Bleep'
 #Destination Folder: The development folder for this site is located in a different location than the apache server it is published to.
 
 destination: /home/jongriffith/domains/homeassistant.jongriffith.com/public_html
-port: 4000
-host: 127.0.0.1
+port: 4001
+host: 192.168.1.100
 base_url: https://homeassistant.jongriffith.com
 
 # The slogan describes your website and is used on homepage in <title> and other important places
@@ -125,10 +125,22 @@ defaults:
       path: ''
       type: 'posts'
     values:
+      layout: page-fullwidth
+      header:
+          image_fullwidth: "header_unsplash_1.jpg"
+          caption: This is a caption.
+          caption_url: https://homeassistant.jongriffith.com
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for posts
+      comments: true
+      author: jon     # Default author for posts
+      subheadline: "subheadline"
+      title:
+      teaser:
+      categories:
+          - posts, articles
+      tags:
+          - tag1, tag2
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
